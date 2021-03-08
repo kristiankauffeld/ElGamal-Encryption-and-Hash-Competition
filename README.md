@@ -7,4 +7,5 @@ The ElGamal encryption scheme is based on the Diffie-Hellman key-exchange/key-ag
 The file hashed.lst contains 861 hashed passwords and is using SHA224. Hashcat was used together with the RockYou wordlist, which contains 32 million passwords from the 2009 data breach. I was possible to crack 677 passwords that are stored in the kka.txt file. The following commands were used:
 
 hashcat -m 1300 -a 0 hashed.lst rockyou2.txt
+
 hashcat -m 1300 -a 0 hashed.lst rockyou2.txt -r /usr/local/Cellar/hashcat/6.1.1/share/doc/hashcat/rules/best64.rul
