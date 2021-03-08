@@ -8,4 +8,4 @@ The file hashed.lst contains 861 hashed passwords and is using SHA224. Hashcat w
 
 hashcat -m 1300 -a 0 hashed.lst rockyou2.txt
 
-hashcat -m 1300 -a 0 hashed.lst rockyou2.txt -r /usr/local/Cellar/hashcat/6.1.1/share/doc/hashcat/rules/best64.rul
+hashcat -m 1300 -a 0 hashed.lst rockyou2.txt -r /usr/local/Cellar/hashcat/6.1.1/share/doc/hashcat/rules/best64.rule
